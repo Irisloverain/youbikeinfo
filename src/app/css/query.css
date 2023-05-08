@@ -1,0 +1,56 @@
+.querybox{
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+    height: 40px;
+    border-radius: 8px;
+    padding-right: 20px;
+
+}
+
+.querybox img{
+   width: 13.2px;
+   height: 13.2px;
+}
+
+.query{
+    appearance: none;
+    -webkit-appearance: none; /* Safari 和 Chrome 需要使用此屬性 */
+    width: 277px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+}
+.query:focus{
+    color: #B5CC22;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+    background-color: white;
+  }
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #999;
+    outline: none;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+
+  }
+  
+  input[type="checkbox"]:checked {
+    background-image: url(../../../public/checked.svg);
+    border: none;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+  }

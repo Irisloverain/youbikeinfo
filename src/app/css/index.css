@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+
+body{
+  font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+.f-700{
+  font-weight: 700!important;
+}
+.f-500{
+  font-weight: 500!important;
+}
+.f-400{
+  font-weight: 400!important;
+}
+.f-Green{
+  color: rgba(103, 117, 16, 1) !important ;
+}
+
+
+.f-LightGreen{
+  color: rgba(181, 204, 34, 1)  !important;
+
+}
+
+.nav-link:active{
+  color: #B5CC22;
+}
+.navbar-toggler-c{
+  width: 40px;
+  height: 40px;
+  background:transparent;
+  border: none;
+}
+.navbar-toggler-c img{
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-nav{
+  width: 100% !important;
+}
+.mobile-nav{
+  width: 100%;
+  height: calc(100vh - 124px);
+  padding: 32px;
+  position: absolute;
+  z-index: 1;
+  background-color: #B5CC22;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+
+}
+.mobile-nav li{
+  color: #F6F6F6;
+  margin-bottom: 10px;
+}
+.mobile-nav-active{
+  color: #677510 !important;
+}
+
+.SearchBar{
+  gap: 16px;
+}
+
+.green-btn{
+  background-color: #B5CC22;
+  border: none;
+  border-radius: 30px;
+  min-width: 85px;
+  min-height: 40px;
+  color: white;
+}
+
+.white-btn{
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  width: 85px;
+  min-height: 40px;
+  color:#B5CC22;
+  font-size: 18px;
+
+}
+
+.youbike-table{
+  border-collapse: collapse;
+}
+
+.youbike-table th{
+  background-color: #B5CC22;
+  text-align: center;
+  padding: 21px;
+  color: white;
+  font-weight: 500;
+}
+
+.youbike-table td {
+  padding: 24px;
+  text-align: center;
+}
+
+.youbike-table tbody tr:nth-child(even){
+  background-color: #F6F6F6;
+}
+
+
+.youbike-table tbody{
+  border: 0.5px solid #AEAEAE;
+}
+
+
+.border-left-28{
+  border-radius: 28px 0px 0px 0px;
+}
+
+.border-right-28{
+  border-radius: 0px 28px 0px 0px;
+}
+
+.dist{
+  width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.dist label{
+  display: flex;
+  align-items: center;
+}
+
+.illustwrap{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(width >= 990px){
+  .navbar-toggler-c{
+    display: none;
+  }
+}
+
+@media (width <= 375px) {
+  .SearchBar{
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-bottom: 30px;
+  }
+  
+  .illustwrap{
+    display: none;
+  }
+
+  .youbike-table tbody td:nth-child(4),
+  .youbike-table tbody td:nth-child(5),
+  .youbike-table thead th:nth-child(4),
+  .youbike-table thead th:nth-child(5){
+    display: none;
+  }
+
+.youbike-table thead th:nth-child(3){
+  border-radius: 0px 28px 0px 0px;
+  width: 150px;
+}
+
+
+.youbike-table td {
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+.youbike-table th {
+  font-size: 14px;
+  text-align: center;
+}
+  
+}
+
