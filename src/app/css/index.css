@@ -42,7 +42,7 @@ body{
 }
 .mobile-nav{
   width: 100%;
-  height: calc(100vh - 124px);
+  height: calc(100vh - 122px);
   padding: 32px;
   position: absolute;
   z-index: 1;
